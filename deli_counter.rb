@@ -4,7 +4,7 @@
 def line(katz_deli)
   index = 0
   if katz_deli != []
-    katz_deli.each do |people|
+    katz_deli.each |people|
       puts "The line is currently: #{index + 1}. #{people}"
       index += 1
     end
