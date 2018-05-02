@@ -6,6 +6,7 @@ def line(katz_deli)
   if katz_deli != []
     katz_deli.each do |people|
       puts "The line is currently: #{index + 1}. #{people}"
+      index += 1
     end
   else
     puts "The line is currently empty."
